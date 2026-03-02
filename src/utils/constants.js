@@ -42,5 +42,6 @@ export const NAV_ITEMS = [
   { path: '/tasks', label: 'Tasks' },
   { path: '/timer', label: 'Timer' },
   { path: '/forest', label: 'Forest' },
+  { path: '/calendar', label: 'Calendar' },
   { path: '/stats', label: 'Stats' },
 ];

@@ -5,6 +5,7 @@ import TasksPage from './pages/TasksPage';
 import TimerPage from './pages/TimerPage';
 import ForestPage from './pages/ForestPage';
 import StatsPage from './pages/StatsPage';
+import CalendarPage from './pages/CalendarPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/tasks" element={<TasksPage />} />
         <Route path="/timer" element={<TimerPage />} />
         <Route path="/forest" element={<ForestPage />} />
+        <Route path="/calendar" element={<CalendarPage />} />
         <Route path="/stats" element={<StatsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
